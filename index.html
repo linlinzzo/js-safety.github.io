@@ -5,13 +5,13 @@
     <script type="text/javascript">
 if(window.opener){
 opener.location="https://linlinzzo.github.io/js-safety.github.io/";
-document.getElementById("blank").innerHTML = "刚才的超链接是有安全隐患的！看一下前一个窗口的页面是否发生了改变";
+document.getElementById("a").innerHTML = "刚才的超链接是有安全隐患的！看一下前一个窗口的页面是否发生了改变";
 }else{
-document.getElementById("blank").innerHTML = "刚才的超链接是安全的!前一个窗口的页面没有任何变化！";
+document.getElementById("a").innerHTML = "刚才的超链接是安全的，前一个窗口的页面没有任何变化！";
 }
     </script>
   </head>
   <body>
-    <p id="blank">检查方法：先使用一个页面添加target="_blank"链接到本页。</p>
+    <p id="a">检查方法：先使用一个页面添加target="_blank"链接到本页。</p>
   </body>
 </html>
